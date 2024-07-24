@@ -9,7 +9,8 @@ This is the template app for using integration with whatsapp business API.
 
 ## 1. Setup
 
-You can simple run sample app by typing `make launch`
+- Create and fill dotenv file (`./whatsapp-webhook-template/.env`) from [example file](./whatsapp-webhook-template/backend/config/environment/env.sh.template)
+- You can simple run sample app by typing `make launch`
 
 ## 2. Writing bot answer realisation
 

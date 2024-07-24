@@ -27,9 +27,6 @@ setup(
         "uvicorn~=0.30.1",
     ],
     extras_require={
-        "shared": [
-            "shared_lib_template @git+https://gitlab.raftds.com/python-shared/shared-lib-template.git",
-        ],
         "code-quality": [
             "asyncpg-stubs~=0.29.1",
             "black~=23.11.0",
