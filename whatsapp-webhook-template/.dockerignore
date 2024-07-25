@@ -1,0 +1,49 @@
+# Ignore everything
+**
+
+# Allow only these directories
+!backend
+!frontend
+!scripts
+
+# Allow only these files
+!main.py
+!.pylintrc
+!code_quality_check.sh
+!setup.cfg
+!setup.py
+
+# Exclude python generated files
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/.pytest_cache/
+**/env/
+**/build/
+**/develop-eggs/
+**/dist/
+**/downloads/
+**/eggs/
+**/.eggs/
+**/lib/
+**/lib64/
+**/parts/
+**/sdist/
+**/var/
+**/wheels/
+**/*.egg-info/
+**/.installed.cfg
+**/*.egg
+
+# Exclude temporary vi files
+**/*~
+
+# Exclude output files
+**/*.out
+**/hive_scratch_dir/
+
+# Exclude auto-generated Finder files on Mac OS
+**/.DS_Store
+**/Thumbs.db
+.gitlab-ci.yml
+.helm

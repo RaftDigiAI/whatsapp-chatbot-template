@@ -1,0 +1,2 @@
+include shared_lib_template/py.typed
+include py.typed
